@@ -1,0 +1,22 @@
+{
+	"name": "vimeh.com",
+	"dependencies": {
+		"@material-ui/core": "^4.11.3",
+		"@material-ui/lab": "^4.0.0-alpha.57",
+		"gatsby": "^3.0.3",
+		"gatsby-plugin-google-gtag": "^3.0.0",
+		"gatsby-plugin-image": "^1.0.0",
+		"gatsby-plugin-sharp": "^3.0.0",
+		"gatsby-remark-images": "^4.0.0",
+		"gatsby-source-filesystem": "^3.0.0",
+		"gatsby-transformer-remark": "^3.0.0",
+		"gatsby-transformer-sharp": "^3.0.0",
+		"sharp": "^0.27.2"
+	},
+	"devDependencies": {
+		"gh-pages": "^3.1.0"
+	},
+	"scripts": {
+		"deploy": "gatsby build && gh-pages -d public -b main"
+	}
+}
