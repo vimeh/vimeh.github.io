@@ -7,12 +7,12 @@ div {
 
 body {
   font-family: 'Roboto Mono', monospace;  
-  font-size: 100%;
+  font-size: 80%;
   /* font-weight: 500; */
   background-color: white;
   color: #111;
   /* width: 90%; */
-  min-width: 400px;
+  min-width: 200px;
   /* max-width: 1000px; */
   min-height: 200px;
   padding: 1em;
