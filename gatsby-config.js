@@ -35,8 +35,8 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: { formats: ["jpg"], placeholder: "blurred" },
-        failOnError: true,
-        quality: 90,
+        failOnError: false,
+        // quality: 90,
         stripMetadata: true,
       },
     },
