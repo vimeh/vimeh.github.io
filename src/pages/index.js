@@ -1,4 +1,3 @@
-// import { Link } from "gatsby"
 import React from "react"
 import Header from "../components/header"
 import Timeline from "@material-ui/lab/Timeline"
@@ -57,6 +56,9 @@ export default function Home({ data }) {
           <Grid spacing={1} xs={12}>
             <a href="https://www.instagram.com/spicyvinay/">Instagram</a>
           </Grid>
+          {/* <Grid spacing={1} xs={12}>
+            <Link to='/resume/'>Resume</Link>
+          </Grid> */}
         </Grid>
       </div>
       <Header headerText="What I've Been Up To" />
