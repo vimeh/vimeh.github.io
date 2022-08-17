@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ "/css/global.css" | absURL }}">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+  </head>
+  <body>
+    {{ block "main" . -}}{{- end }}
+  </body>
+</html>
+
