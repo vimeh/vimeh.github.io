@@ -13,3 +13,5 @@ find me over on:
 * [LinkedIn](https://www.linkedin.com/in/vinaymehta/)
 
 or, [let's talk](https://www.calendly.com/vimeh) :)
+
+if you're interested in hiring me, [here's a resume](https://github.com/vimeh/resume/raw/main/vinay_mehta_resume.pdf)
