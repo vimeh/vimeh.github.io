@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ "/css/global.css" | absURL }}">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+  </head>
+  <body>
+    {{ block "main" . -}}{{- end }}
+    <noscript>
+      <img src="https://kiplingpa.duckdns.org/ingress/78b62942-9bcd-4bf9-8a5e-64ec34cb2323/pixel.gif">
+    </noscript>
+    <script defer src="https://kiplingpa.duckdns.org/ingress/78b62942-9bcd-4bf9-8a5e-64ec34cb2323/script.js"></script>
+  </body>
+</html>
+

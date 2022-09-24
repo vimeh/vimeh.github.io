@@ -1,0 +1,4 @@
+baseURL: "/"
+title: "Vinay Mehta"
+staticDir:
+  - static
