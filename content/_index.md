@@ -1,8 +1,7 @@
----
-title: "Home"
-date: 2022-08-17T11:26:08-07:00
-draft: false 
----
++++
+title = "Landing Page"
+template = "index.html"
++++
 
 hi, i'm Vinay. i'm good with computers and want to build useful things
 

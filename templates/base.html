@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ "/css/global.css" | absURL }}">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ get_url(path="global.css") }}">
+    <title>Home</title>
   </head>
   <body>
-    {{ block "main" . -}}{{- end }}
+    <section class="section">
+      {% block content %} {% endblock %}
+    </section>
     <noscript>
       <img src="https://kiplingpa.duckdns.org/ingress/78b62942-9bcd-4bf9-8a5e-64ec34cb2323/pixel.gif">
     </noscript>
