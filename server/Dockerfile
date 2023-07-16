@@ -29,6 +29,9 @@ WORKDIR /root/
 # Copy the Pre-built binary file from the previous stage
 COPY --from=builder /app/main .
 
+# Copy the static folder contents to the Working Directory inside the container 
+COPY static ./static
+
 # Expose port 8001 to the outside world
 EXPOSE 8001
 
